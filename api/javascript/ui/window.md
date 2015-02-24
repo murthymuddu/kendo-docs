@@ -321,19 +321,19 @@ A collection of one or two members, which define the initial Window's top and/or
     <script>
     $("#dialog").kendoWindow({
       position: {
-        top: 100,
-        left: 200
+        top: 100, // or "100px"
+        left: "20%"
       }
     });
     </script>
 
-### position.top `Number`
+### position.top `Number|String`
 
-Specifies the initial top position of the window.
+Specifies the initial top position of the window. Numeric values are treated as pixels. String values can specify pixels, percentages, ems or other valid values.
 
-### position.left `Number`
+### position.left `Number|String`
 
-Specifies the initial left position of the window.
+Specifies the initial left position of the window. Numeric values are treated as pixels. String values can specify pixels or percentages, ems or other valid values.
 
 ### resizable `Boolean` *(default: true)*
 
