@@ -16,7 +16,7 @@ A collection of visual animations used when items are expanded or collapsed thro
 Setting this option to **false** will disable all animations.
 
 #### Example - disable animation of subnodes
-
+
     <div id="treeview"></div>
     <script>
     $("#treeview").kendoTreeView({
@@ -1931,6 +1931,6 @@ The selected node
       ]
     });
     var treeview = $("#treeview").data("kendoTreeView");
-    treeview.bind("Selecting", tree_select);
+    treeview.bind("select", tree_select);
     </script>
 
