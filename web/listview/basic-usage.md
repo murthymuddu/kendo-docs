@@ -29,6 +29,8 @@ First, we'll define a target HTML element such as a list or div:
         </div>
     </script>
 
+> Please note that the ListView item template must have only one root element - in this case this is `div.product`.
+
 Next, we'll initialize the ListView by referring the template and a result set from the service to be displayed:
 
     var dataSource = new kendo.data.DataSource({
